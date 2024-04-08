@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  color: whitesmoke;
+}
+
+.navbar {
+  background-color: #61458c;
+}
+
+/* whoWeAre */
+aside {
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5%;
+  color: #4e4e4e;
+}
+
+.h3whoWeAre {
+  text-align: l;
+  color: #4e4e4e;
+}
+h6 {
+  text-align: center;
+  padding: 1% 25% 1% 25%;
+  margin-bottom: 2%;
+  color: #4e4e4e;
+}
+
+.imgWhoWeAre {
+  float: left;
+  margin: 1% 2% 0 0;
+  border-radius: 2%;
+}
+
+.imgAside {
+  margin-left: 4%;
+}
+
+#whoWeArE p {
+  color: #797979;
+  text-align: justify;
+}
+
+#whoWeArE {
+  flex-direction: row;
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 5%;
+}
+
+/* services */
+#serviceS {
+  margin: 2%;
+  padding: 3%;
+}
+
+#serviceS i {
+  border: solid 2px;
+  border-color: #d3d3d3;
+  border-radius: 50%;
+  padding: 8%;
+  float: left;
+  margin: 5%;
+  margin-bottom: 30%;
+  color: #61458c;
+  font-size: large;
+}
+
+#serviceS i:hover {
+  background-color: #61458c;
+  color: whitesmoke;
+  border: none;
+}
+
+.services {
+  padding: 0% 15% 2% 15%;
+}
+
+.services h5 {
+  text-align: center;
+  margin-bottom: 6%;
+  color: #61458c;
+  text-decoration: dotted;
+}
+.services p {
+  text-align: justify;
+}
+
+#serviceS i :hover {
+  border: solid 3px;
+  border-color: #d3d3d3;
+  border-radius: 50%;
+  padding: 2%;
+  float: left;
+  margin: 1%;
+  color: #61458c;
+  font-size: large;
+  background-color: black;
+}
+
+.card {
+  border: none;
+}
+
+/* portfolio */
+#galleryPortfolio .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galleryPortfolio img {
+  width: 80%;
+  height: 90%;
+}
+
+#galleryPortfolio img:hover {
+  border: 5px solid whitesmoke;
+}
+
+/* location */
+.headOff {
+  text-align: center;
+  margin-top: 6%;
+}
+
+.h3Location {
+  text-align: center;
+  padding-bottom: 3%;
+  color: #4e4e4e;
+}
+
+/* contact */
+button {
+  margin-inline-start: 45%;
+}
+
+/* footer */
+footer {
+  text-align: end;
+  color: white;
+}
